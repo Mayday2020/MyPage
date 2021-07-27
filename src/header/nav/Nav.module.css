@@ -1,0 +1,10 @@
+.nav {
+    border: 1px solid #FFF;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.nav_items {
+
+}
