@@ -6,9 +6,18 @@
 .text {
     width: 300px;
     background-color: #FFFFFF;
+    text-align: center;
 }
 .photo {
     width: 300px;
     height: 400px;
     background-color: darkgray;
+}
+@media (max-width: 865px) {
+    .main {
+        height: auto;
+    }
+    .text {
+        margin: 10px;
+    }
 }

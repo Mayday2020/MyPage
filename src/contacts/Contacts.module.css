@@ -1,0 +1,41 @@
+.contactsWrapper {
+    background-color: #d7798a;
+    padding: 55px 0;
+    height: 70vh;
+}
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.formBlock {
+    margin: 100px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    background-color: azure;
+}
+.submitButton {
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+@media (max-width: 865px) {
+    .contactsWrapper {
+        height: auto;
+    }
+    .container {
+        border: none;
+        width: 100%;
+    }
+    .formBlock {
+        width: 90%;
+    }
+}

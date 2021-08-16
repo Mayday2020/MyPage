@@ -1,13 +1,24 @@
 .skill {
-    width: 250px;
+    width: 30%;
     background-color: coral;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 60px 0;
 }
 .icon {
     height: 60px;
     width: 60px;
     background-color: darkgray;
+}
+.description {
+    box-sizing: border-box;
+    padding: 15px;
+}
+@media (max-width: 865px) {
+    .skill {
+        width: 90%;
+        margin: 10px 0;
+    }
 }

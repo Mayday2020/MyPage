@@ -1,8 +1,9 @@
-.skillsBlock {
+.projectsBlock {
+    padding: 20px 0;
     height: 100vh;
-    background-color: beige;
+    background-color: #f6e7c6;
 }
-.skillsContainer {
+.projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -10,23 +11,22 @@
 .title {
     background-color: azure;
 }
-.skills {
+.projects {
     border: 1px solid;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-
 @media (max-width: 865px) {
-    .skills {
-        border: none;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .skillsBlock {
+    .projectsBlock {
+        padding: 20px 0;
         height: auto;
+        background-color: #f6e7c6;
+    }
+    .projects {
+        flex-direction: column;
+        border: none;
     }
 }

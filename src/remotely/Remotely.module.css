@@ -1,0 +1,36 @@
+.remotelyBlock {
+    background-color: #e2f6c6;
+    padding: 55px 0;
+}
+.remotelyContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.title {
+    background-color: azure;
+}
+.employ {
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 865px) {
+    .remotely {
+        text-align: center;
+    }
+    .container {
+        border: none;
+        width: 100%;
+    }
+}
